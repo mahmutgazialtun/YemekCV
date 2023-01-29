@@ -22,10 +22,10 @@
                     <a class="navbar-brand" href="#">YemekCV</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Ben Kimim?</a></li>
+                    <li><a href="EgitimHayatim.aspx">Eğitim Hayatım</a></li>
                     <li><a href="Yeteneklerim.aspx">Yeteneklerim</a></li>
                     <li><a href="Deneyimlerim.aspx">Deneyimlerim</a></li>
-                    <li><a href="#">İletişim</a></li>
+                    <li><a href="Iletisim.aspx">İletişim</a></li>
                 </ul>
             </div>
         </nav>

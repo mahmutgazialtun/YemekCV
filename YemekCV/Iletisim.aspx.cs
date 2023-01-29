@@ -7,12 +7,12 @@ using System.Web.UI.WebControls;
 
 namespace YemekCV
 {
-    public partial class Deneyimlerim : System.Web.UI.Page
+    public partial class Iletisim : System.Web.UI.Page
     {
         YemekCVEntities db = new YemekCVEntities();
         protected void Page_Load(object sender, EventArgs e)
         {
-            Repeater1.DataSource = db.TBLhakkimda.ToList();
+            Repeater1.DataSource = db.TBLiletisim.ToList();
             Repeater1.DataBind();
         }
     }

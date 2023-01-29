@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <table class="table table-bordered">
+    <table class="table table-bordered" style="width:1650px; margin-left:20px">
         <tr>
             <th>ID</th>
             <th>Yetenek</th>

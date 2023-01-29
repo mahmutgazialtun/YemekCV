@@ -11,7 +11,7 @@ namespace YemekCV
 {
 
 
-    public partial class Deneyimlerim
+    public partial class EgitimHayatim
     {
 
         /// <summary>

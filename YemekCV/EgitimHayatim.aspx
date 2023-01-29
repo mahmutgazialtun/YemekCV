@@ -1,11 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="Deneyimlerim.aspx.cs" Inherits="YemekCV.Deneyimlerim" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="EgitimHayatim.aspx.cs" Inherits="YemekCV.EgitimHayatim" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style type="text/css">
-        .auto-style2 {
-            width: 716px;
-        }
-    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -14,16 +9,16 @@
             <th>Detay</th>
             <th>Güncelle</th>
         </tr>
+
         <asp:Repeater ID="Repeater1" runat="server">
             <ItemTemplate>
                 <tr>
-                    <td><%# Eval("IsDeneyimi") %></td>
+                    <td><%# Eval("Egitim") %></td>
                     <td>
-                        <asp:HyperLink ID="HyperLink1" runat="server" CssClass="btn btn-danger" NavigateUrl='<%# "DeneyimGuncelle.aspx?Id="+ Eval("Id") %>'>Güncelle</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl='<%# "EgitimGuncelle.aspx?Id="+Eval("Id") %>' CssClass="btn btn-danger">Güncelle</asp:HyperLink>
                     </td>
                 </tr>
             </ItemTemplate>
         </asp:Repeater>
     </table>
-
 </asp:Content>

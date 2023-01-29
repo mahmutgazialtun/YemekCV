@@ -76,7 +76,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="DeneyimGuncelle.aspx" />
     <Content Include="Deneyimlerim.aspx" />
+    <Content Include="EgitimGuncelle.aspx" />
+    <Content Include="EgitimHayatim.aspx" />
+    <Content Include="Iletisim.aspx" />
+    <Content Include="MesajDetay.aspx" />
     <Content Include="Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Model1.Context.cs</LastGenOutput>
@@ -119,12 +124,47 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DeneyimGuncelle.aspx.cs">
+      <DependentUpon>DeneyimGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeneyimGuncelle.aspx.designer.cs">
+      <DependentUpon>DeneyimGuncelle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Deneyimlerim.aspx.cs">
       <DependentUpon>Deneyimlerim.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Deneyimlerim.aspx.designer.cs">
       <DependentUpon>Deneyimlerim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EgitimGuncelle.aspx.cs">
+      <DependentUpon>EgitimGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EgitimGuncelle.aspx.designer.cs">
+      <DependentUpon>EgitimGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EgitimHayatim.aspx.cs">
+      <DependentUpon>EgitimHayatim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EgitimHayatim.aspx.designer.cs">
+      <DependentUpon>EgitimHayatim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Iletisim.aspx.cs">
+      <DependentUpon>Iletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Iletisim.aspx.designer.cs">
+      <DependentUpon>Iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MesajDetay.aspx.cs">
+      <DependentUpon>MesajDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MesajDetay.aspx.designer.cs">
+      <DependentUpon>MesajDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
